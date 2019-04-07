@@ -4,7 +4,8 @@
  Author      : James Giroux
  Version     : V1
  Copyright   : Copyright James Giroux
- Description : Prints diamond of * based on num of lines from user
+ Description : Prints diamond of * based on num of lines from user and can print
+ 	 	 	   hollow parts of the pyramid based also on input from user
  ============================================================================
  */
 
