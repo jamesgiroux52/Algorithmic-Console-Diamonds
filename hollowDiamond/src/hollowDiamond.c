@@ -138,7 +138,7 @@ int yes(void){
 				res = 1;
 			}
 		}
-		if (res == -1) {
+		if (res < 0) {
 			printf("*** INVALID ENTRY *** <Only (Y)es or (N)o are acceptable>: ");//Invalid characters
 			clearBuffer();
 		}
