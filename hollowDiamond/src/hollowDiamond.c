@@ -32,9 +32,8 @@ int main(void) {
 
 	int num = 0, again;
 	do{
-		printf("Enter the number of lines: ");
-		num = getInt();
-		valPos(&num, "");
+		printf("Enter the number of lines: (5 - 100): ");
+		num = getIntInRange(5, 100);
 
 		printf("Do you want a hollow pyramid? (y or n) ");
 		if(yes()){
