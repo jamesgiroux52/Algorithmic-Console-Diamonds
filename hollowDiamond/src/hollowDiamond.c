@@ -51,6 +51,7 @@ int main(void) {
 			printf("\n");
 		} else {
 			again = 0;
+			printf("*** Program terminated ***");
 		}
 
 	} while (again >= 1);
@@ -195,4 +196,3 @@ int getIntInRange(int min, int max){
 
 	return res;  // return integer within range min - max
 }
-
