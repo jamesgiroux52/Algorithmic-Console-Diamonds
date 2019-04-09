@@ -54,7 +54,7 @@ int main(void) {
 			printf("*** Program terminated ***");
 		}
 
-	} while (again >= 1);
+	} while (again > 0);
 
 	return 0;
 }
